@@ -1,0 +1,14 @@
+{
+  "name": "conversation-component",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@streamlit/component-lib": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --watch --hot",
+    "build": "webpack --mode production"
+  }
+}
